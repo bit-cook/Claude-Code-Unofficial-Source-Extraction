@@ -19,26 +19,19 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "_comment_core_sdks": "--- Core / Anthropic SDKs ---",
     "@anthropic-ai/sdk": "0.74.0",
     "@anthropic-ai/bedrock-sdk": "0.26.4",
     "@anthropic-ai/vertex-sdk": "0.14.4",
     "@anthropic-ai/foundry-sdk": "0.2.3",
     "@anthropic-ai/mcpb": "2.1.2",
     "@modelcontextprotocol/sdk": "1.29.0",
-
-    "_comment_aws": "--- AWS SDKs ---",
     "@aws-sdk/client-bedrock": "3.1020.0",
     "@aws-sdk/client-bedrock-runtime": "3.1020.0",
     "@aws-sdk/credential-provider-node": "3.972.28",
     "@aws-sdk/credential-providers": "3.1020.0",
     "@smithy/core": "3.23.13",
     "@smithy/node-http-handler": "4.5.1",
-
-    "_comment_azure": "--- Azure ---",
     "@azure/identity": "4.13.1",
-
-    "_comment_otel": "--- OpenTelemetry (source: core=2.2.0, api=1.9.0, otlp=0.208.0) ---",
     "@opentelemetry/api": "1.9.0",
     "@opentelemetry/api-logs": "0.208.0",
     "@opentelemetry/core": "2.2.0",
@@ -48,8 +41,6 @@
     "@opentelemetry/sdk-logs": "0.208.0",
     "@opentelemetry/sdk-metrics": "2.2.0",
     "@opentelemetry/sdk-trace-base": "2.2.0",
-
-    "_comment_cli": "--- CLI / Terminal ---",
     "chalk": "5.6.2",
     "commander": "14.0.3",
     "@commander-js/extra-typings": "14.0.0",
@@ -62,19 +53,13 @@
     "indent-string": "5.0.0",
     "emoji-regex": "10.6.0",
     "asciichart": "1.5.25",
-
-    "_comment_react": "--- React (source: 19.2.0) ---",
     "react": "19.2.0",
     "react-reconciler": "0.33.0",
-
-    "_comment_http": "--- HTTP / Networking (source: axios=1.13.6) ---",
     "axios": "1.13.6",
     "undici": "7.24.6",
     "https-proxy-agent": "8.0.0",
     "ws": "8.20.0",
     "google-auth-library": "10.6.2",
-
-    "_comment_fs": "--- File System / Process ---",
     "chokidar": "4.0.3",
     "execa": "7.2.0",
     "signal-exit": "4.1.0",
@@ -85,8 +70,6 @@
     "ignore": "7.0.5",
     "p-map": "7.0.4",
     "cacache": "20.0.4",
-
-    "_comment_data": "--- Data / Parsing (source: zod=4.0.0) ---",
     "zod": "4.0.0",
     "ajv": "8.18.0",
     "yaml": "2.8.3",
@@ -98,8 +81,6 @@
     "qrcode": "1.5.4",
     "fflate": "0.8.2",
     "diff": "8.0.4",
-
-    "_comment_utility": "--- Utility ---",
     "lodash-es": "4.17.21",
     "semver": "7.7.4",
     "lru-cache": "11.2.7",
@@ -113,8 +94,6 @@
     "type-fest": "5.5.0",
     "usehooks-ts": "3.1.1",
     "vscode-languageserver-protocol": "3.17.5",
-
-    "_comment_feature_flags": "--- Feature Flags ---",
     "@growthbook/growthbook": "1.6.5"
   },
   "optionalDependencies": {
