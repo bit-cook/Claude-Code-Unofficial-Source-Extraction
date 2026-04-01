@@ -13,11 +13,10 @@
 ## Want to see what YOUR Claude Code actually sends?
 
 LeanMCP shows you what it did in your last session — 
-every request, every model call, every secret that 
-almost left your machine.
+every request, model call, tool call and, agent harness.
 
-→ [See your Claude Code logs](https://leanmcp.com/ai-gateway)  
-One URL change. No code required.
+→ [See your Claude Code logs, One URL change. No code required.](https://leanmcp.com/ai-gateway)  
+
 → [Docs](https://docs.leanmcp.com/ai-gateway/claude-code#claude-code)
 
 ---
